@@ -1,0 +1,53 @@
+ * {
+  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+}
+
+body{
+  background-color: rgb(66, 65, 65);
+}
+
+h1 {
+  color: white;
+  font-family: 'Monoton', cursive;
+  font-size: 80px;
+  text-align: center;
+  font-weight: 100;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  /* box-shadow: 0px 0px 5px #fff; */
+}
+
+
+.row {
+  flex: 25%;
+  max-width: 25%;
+  padding: 10px;
+}
+
+.row img {
+  margin: 10px;
+  vertical-align: middle;
+  width: 100%;
+  box-shadow: 0px 0px 5px #fff;
+  /* mix-blend-mode: difference; */
+}
+
+footer {
+  border:2px solid rgb(193, 224, 189);
+  background-color:rgb(193, 224, 189) ;
+  width: 100vw;
+  height: 10vh;
+}
+
+#company {
+  font-size: 30px;;
+  color: white;
+  text-align: center;
+}

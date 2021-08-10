@@ -1,0 +1,15 @@
+.logo {
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+}
+
+nav > a {
+  /* margin: 2% 2% 4%; */
+  text-decoration: none;
+  color: rgb(139, 176, 179);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  padding: 10px;
+  text-align: center;
+}
