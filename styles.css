@@ -34,7 +34,7 @@ body {
  #name {
   position: absolute;
   height: 100px;
-  top: 40px;
+  top: 5%;
   right: 120px;
   left: 800px;
   background-color:  rgba(70, 39, 22, 0.6);
@@ -43,17 +43,16 @@ body {
  .maintxt {
   font-size: 30px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-align: left;
   position: absolute;
-  top: 150px;
-  right: 250px;
-  width: 300px;
+  top: 20%;
+  right: 22%;
+  width: 20%;
  }
 
  #more {
   position: absolute;
-  top: 350px;
-  right: 415px;
+  top: 40%;
+  right: 28%;
   text-decoration: none;
   font-size: 30px;
   color: white;
