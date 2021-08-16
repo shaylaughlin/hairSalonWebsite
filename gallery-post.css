@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(112, 121, 121);
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 45px;
+}
+.center img {
+  position: relative;
+  height: 400px;
+  width: 40vw; 
+}
+
+p {
+  display: inline-block;
+  width: 40vw;
+}
+
+#title {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 25px;
+  color: white;
+}
+
+@media (max-width: 699px) {
+  section {
+    display: flex;
+    flex-direction:column; 
+    justify-content: center;
+    margin: auto ;
+    
+  }
+
+  .center {
+     width: 50%;  
+     align-content: center;  
+     margin: auto ;
+   
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  }
+
+  @media (max-width: 960px) {
+    section {
+      display: flex;
+      flex-direction:column; 
+      justify-content: center;
+      margin: auto;
+     
+    }
+    .center {
+      width: 50%;  
+      align-content: center;  
+      margin: auto;
+   
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    }
+  
+    
