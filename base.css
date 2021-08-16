@@ -1,15 +1,47 @@
+header {
+  text-align: center;
+}
+
 .logo {
   display: inline-block;
+  padding: 10px;
   height: 250px;
   width: 250px;
+  
 }
 
 nav > a {
-  /* margin: 2% 2% 4%; */
   text-decoration: none;
   color: rgb(139, 176, 179);
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 25px;
-  padding: 10px;
-  text-align: center;
+  font-size: 30px;
+  padding: 40px;
 }
+
+footer {
+  border:2px solid rgb(15, 15, 15);
+  background-color:rgb(15, 15, 15, 0.9) ;
+  width: 100vw;
+  height: 10vh;
+
+}
+
+#company {
+  font-size: 15px;;
+  color: white;
+  padding-left: 10%;
+  text-align:left;
+} 
+
+@media (max-width: 960px) {
+  footer {
+    position: static; 
+  }
+  }
+
+
+  @media (min-width: 1025px) {
+    footer {
+      position: static; 
+    }
+    }

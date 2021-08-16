@@ -1,5 +1,133 @@
-h1 {
-  margin: auto;
-  font-size: 80px;
+*{
   text-align: center;
+  margin:auto;
+  text-decoration: none;
 }
+
+body {
+    background-image: url(/images/background.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: grey;
+}
+.logo {
+  background-color: rgba(137,63,24,0.6);
+  border-radius: 10%;
+  margin-top: 3%;   
+}
+
+#companyname {
+  position: relative;
+  top: 0;
+  left: 0;  
+}
+
+ #main {
+  height: 800px;
+  width: 100vw;
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 1px solid #000000;
+ }
+
+ #name {
+  position: absolute;
+  height: 100px;
+  top: 40px;
+  right: 120px;
+  left: 800px;
+  background-color:  rgba(70, 39, 22, 0.6);
+ }
+
+ .maintxt {
+  font-size: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: left;
+  position: absolute;
+  top: 150px;
+  right: 250px;
+  width: 300px;
+ }
+
+ #more {
+  position: absolute;
+  top: 350px;
+  right: 415px;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  background-color: black;
+ }
+
+.bottom {
+  display: inline-block;
+  padding: 30px 30px;
+  
+}
+
+.bottom img {
+  height: 300px;
+  border: 3px solid black;
+  display: block;
+  
+}
+
+ span {
+   font-size: 40px;
+   color: white;
+   background: black;
+ }
+
+
+
+ @media (max-width: 699px) {
+    div {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    text-align: center;
+  }
+
+    a {
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+      margin: auto;    
+   
+  }
+    nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  }
+
+  @media (max-width: 960px) {
+    div {
+      display: flex;
+      flex-direction:column;
+      justify-content: center;
+      margin: auto;
+      
+    }
+    a {
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    }
+  
+    @media (min-width: 1025px) {
+      div {
+        display:flex;
+        flex-direction:row;
+        
+      }
+      }

@@ -28,15 +28,47 @@ p {
   color: white;
 }
 
-footer {
-  border:2px solid rgb(193, 224, 189);
-  background-color:rgb(193, 224, 189) ;
-  width: 100vw;
-  height: 10vh;
-}
+@media (max-width: 699px) {
+  section {
+    display: flex;
+    flex-direction:column; 
+    justify-content: center;
+    margin: auto ;
+    
+  }
 
-#company {
-  font-size: 30px;;
-  color: white;
-  text-align: center;
-}
+  .center {
+     width: 50%;  
+     align-content: center;  
+     margin: auto ;
+   
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  }
+
+  @media (max-width: 960px) {
+    section {
+      display: flex;
+      flex-direction:column; 
+      justify-content: center;
+      margin: auto;
+     
+    }
+    .center {
+      width: 50%;  
+      align-content: center;  
+      margin: auto;
+   
+    }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    }
+  
+    
